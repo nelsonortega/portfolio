@@ -7,31 +7,63 @@
   <link rel="stylesheet" href="css/styles.css">
   <title>Nelson</title>
 </head>
+
 <body>
   <header class="header">
-    <nav class="nav nav-grid">
+    <nav class="nav grid">
       <div>
-        <a href="#" class="nav_logo">Nelson</a>
+        <a href="#" class="nav-logo">Nelson</a>
       </div>
 
-      <div class="nav_menu" id="nav-menu">
-        <ul class="nav_list">
-          <li class="nav_item"><a href="#" class="nav_link active">Home</a></li>
-          <li class="nav_item"><a href="#" class="nav_link">About</a></li>
-          <li class="nav_item"><a href="#" class="nav_link">Skills</a></li>
-          <li class="nav_item"><a href="#" class="nav_link">Work</a></li>
-          <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
         </ul>
       </div>
 
-      <div class="nav_toggle" id="nav-toggle">
+      <div class="nav-toggle" id="nav-toggle">
         <i class='bx bx-menu'></i>
       </div>
     </nav>
   </header>
 
   <main class="main">
+    <section class="home grid" id="home">
+      <div class="home-data">
+        <h1 class="home-title">Hello, <br> I'm <span class="home-title-color">Nelson</span> <br> Front End Developer </h1>
+        <a href="#" class="contact-button">Contact</a>
+      </div>
+
+      <div class="home-social">
+        <a href="#" class="home-social-icon"><i class='bx bxl-linkedin' ></i></a>
+        <a href="#" class="home-social-icon"><i class='bx bxl-github' ></i></a>
+      </div>
+
+      <div class="home-image">
+        <img src="img/main.png" alt="img">
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <h2 class="section-title">About me</h2>
+
+      <div class="about-container grid">
+        <div class="about-image">
+          <img src="img/work1.jpg" alt="about">
+        </div>
+
+        <div>
+          <h2 class="about-subtitle">I'm Nelson</h2>
+          <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, eum beatae est qui sequi tenetur optio corrupti laborum illo? Alias doloremque fugiat suscipit, rerum fuga ducimus iusto. Repudiandae, et sed?</p>
+        </div>
+      </div>
+    </section>
   </main>
+
   <script src="js/main.js"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
 </body>
